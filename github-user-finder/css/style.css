@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-image: url(../images/matrix.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: "Orbitron", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#inp,
+button {
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    font-family: "Orbitron", sans-serif;
+}
+
+button {
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+#output {
+    margin-top: 20px;
+    line-height: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 450px;
+    padding: 10px;
+}
+
+img {
+    max-width: 400px;
+    height: 400px;
+    border: 2px solid white;
+}
